@@ -13,14 +13,41 @@
 <!-- Bootstrap Icon -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
+<!-- CSS -->
+<style>
+  <?php include "style.css" ?>
+</style>
 
   </head>
   <body>
     <!-- BUNG PRASSSSSSS -->
+<div class="container-fluid">
+  <div class="navbar">
+    <h1>PustakaKita</h1>
 
-
-
-    <h1>Hello, world!</h1>
+    <ul>
+    <li><a href="#">
+      Beranda
+    </a></li>
+    <li><a href="#">
+      Tentang Kami
+    </a></li>
+    <li><a href="#">
+      Koleksi Buku
+    </a></li>
+    <li><a href="#">
+      Blog
+    </a></li>
+    </ul>
+    
+    <div class="icon_nav">
+      <a href="#"><i class="bi bi-book"></i></a>
+      <a href="#" class="btn_icon">Ayo Baca</a>
+    </div>
+  
+    
+  </div>
+</div>
 
 
 
